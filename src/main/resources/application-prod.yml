@@ -1,0 +1,51 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.31.239:3306/cyjsell?characterEncoding=utf-8&useSSL=false
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.31.252
+    port: 6379
+
+
+server:
+  servlet:
+    context-path: /sell
+
+wechat:
+  #  公众账号，授权
+  mpAppId: wx5ae48c862385c7e6
+  mpAppSecret: a0d1a718f380d0cc8456c2ff2031637b
+
+  # 支付/商户号
+  #  mchId: 1409146202
+  #  mchKey: c976503d34ca432c601361f969fd8d85
+
+  #  发起支付不需要证书，退款需要证书
+  #  keyPath: /var/weixin_cert/h5.p12
+  #  notifyUrl: http://cyjsell.natapp1.cc/sell/pay/notify
+
+  #  开方平台，扫码登录
+  #  opendAppId: wx5ae48c862385c7e6
+  #  openAppSecret: a0d1a718f380d0cc8456c2ff2031637b
+
+  # 模板推送ID
+  TemplateId:
+    orderStatus: 3W-FTgvXEouAUq4rrcOkEYsm8yhcgkyC3vKYSHHOq-s
+    newOrder: RwbH4kZQazBJ_Ex-B8dYsgO_r1mB2Mf4OuclezQ6T24
+
+projectUrl:
+  sell: http://cyjsell.natapp1.cc
+  wechatMpAuthorize: http://cyjsell.natapp1.cc
+  wechatOpenAuthorize: http://cyjsell.natapp1.cc
+
+
+logging:
+  level:
+    com.nogang.sell.mapper: trace
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
