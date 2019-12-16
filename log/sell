@@ -1,0 +1,8 @@
+2019-10-12 09:59:04.935  INFO 11548 --- [main] com.nogang.sell.LoggerTest               : Starting LoggerTest on DESKTOP-AVCNN7B with PID 11548 (started by GIN in D:\sell)
+2019-10-12 09:59:04.935  INFO 11548 --- [main] com.nogang.sell.LoggerTest               : No active profile set, falling back to default profiles: default
+2019-10-12 09:59:08.216  INFO 11548 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-12 09:59:08.786  INFO 11548 --- [main] com.nogang.sell.LoggerTest               : Started LoggerTest in 4.528 seconds (JVM running for 6.539)
+2019-10-12 09:59:09.149  INFO 11548 --- [main] com.nogang.sell.LoggerTest               : name:cyj,password:12345
+2019-10-12 09:59:09.149  INFO 11548 --- [main] com.nogang.sell.LoggerTest               : info.....
+2019-10-12 09:59:09.149 ERROR 11548 --- [main] com.nogang.sell.LoggerTest               : error.....
+2019-10-12 09:59:09.310  INFO 11548 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

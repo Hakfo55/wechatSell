@@ -1,0 +1,8 @@
+2019-10-12 09:52:27.192  INFO 13940 --- [main] com.nogang.sell.LoggerTest               : Starting LoggerTest on DESKTOP-AVCNN7B with PID 13940 (started by GIN in D:\sell)
+2019-10-12 09:52:27.202  INFO 13940 --- [main] com.nogang.sell.LoggerTest               : No active profile set, falling back to default profiles: default
+2019-10-12 09:52:30.237  INFO 13940 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-12 09:52:30.793  INFO 13940 --- [main] com.nogang.sell.LoggerTest               : Started LoggerTest in 4.314 seconds (JVM running for 6.107)
+2019-10-12 09:52:31.208  INFO 13940 --- [main] com.nogang.sell.LoggerTest               : name:cyj,password:12345
+2019-10-12 09:52:31.216  INFO 13940 --- [main] com.nogang.sell.LoggerTest               : info.....
+2019-10-12 09:52:31.218 ERROR 13940 --- [main] com.nogang.sell.LoggerTest               : error.....
+2019-10-12 09:52:31.389  INFO 13940 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
